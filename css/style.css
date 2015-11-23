@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FEFDF3;
+  font-size: 17px;
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #111;
+}
+
+.logo {
+  margin: 1% auto;
+}
+
+.wrapper {
+  background: white;
+  border: 2px solid #000;
+  text-align: center;
+}
+
+h1 {
+  line-height: 500%;
+  font-size: 300%;
+}
+
+.btn-default {
+  color: black;
+  background: white;
+  border: 2px solid black;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  padding: 7px 12px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+  -moz-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+  -o-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+  -ms-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+  transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+}
+
+.btn-default:hover,
+.btn-default:focus {
+  font-weight: 400;
+  color: white;
+  background: black;
+  text-decoration: none;
+  outline: none;
+  border-color: transparent;
+}
+
+.footer {
+  margin: 0 auto 10vh auto;
+  text-align: center;
+  padding: 3% 0;
+  background: white;
+  border: 2px solid #000;
+  border-top: 0;
+}
+
+.footer .promo {
+  text-transform: uppercase;
+}
+
+.footer .promo h3 {
+  margin: 0;
+}
+
+.footer .promo p {
+  display: block;
+  font: 8px;
+  text-transform: lowercase;
+}
+
+.footer li {
+  width: 45px;
+  height: 45px;
+  line-height: 45px !important;
+  position: relative;
+  margin: 0 15px;
+  text-align: center;
+  display: inline-block;
+  border: 2px solid #000;
+}
+
+.footer li:hover {
+  background: #101010;
+  color: white;
+}
+
+.footer li:hover a {
+  color: white;
+}
+
+.footer li a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer .input-group {
+  border: 2px solid black;
+  border-radius: 0px;
+  radius: 0;
+  max-width: 192px;
+  min-width: 191px;
+  margin: 0 auto;
+}
+
+.footer span.input-group-addon {
+  border-right: 2px solid black;
+  radius: 0px;
+  background: black;
+  color: white;
+  border: 0;
+  border-radius: 0;
+}
+
+.footer .form-control {
+  text-transform: uppercase;
+  font-family: 'Muli', sans-serif;
+  font-size: 12px;
+  border: 0;
+  border-radius: 0;
+}
