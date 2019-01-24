@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fefdf3;
+  color: #111;
+  font-family: Muli, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.logo {
+  margin: 1% auto;
+}
+
+.wrapper {
+  background: white;
+  border: 2px solid #000;
+  text-align: center;
+}
+
+h1 {
+  font-size: 300%;
+  line-height: 500%;
+}
+
+.btn-default {
+  background: white;
+  border: 2px solid #000;
+  border-radius: 0;
+  color: #000;
+  letter-spacing: 2px;
+  padding: 7px 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+}
+
+.btn-default:hover, .btn-default:focus {
+  background: #000;
+  border-color: transparent;
+  color: white;
+  font-weight: 400;
+  outline: none;
+  text-decoration: none;
+}
+
+.footer {
+  background: white;
+  border: 2px solid #000;
+  border-top: 0;
+  margin: 0 auto 10vh;
+  padding: 3% 0;
+  text-align: center;
+}
+
+.footer .promo {
+  text-transform: uppercase;
+}
+
+.footer .promo h3 {
+  margin: 0;
+}
+
+.footer .promo p {
+  display: block;
+  font: 8px;
+  text-transform: lowercase;
+}
+
+.footer li {
+  border: 2px solid #000;
+  display: inline-block;
+  height: 45px;
+  line-height: 45px !important;
+  margin: 0 15px;
+  position: relative;
+  text-align: center;
+  width: 45px;
+}
+
+.footer li:hover {
+  background: #111;
+  color: white;
+}
+
+.footer li:hover a {
+  color: white;
+}
+
+.footer li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer .input-group {
+  border: 2px solid #000;
+  border-radius: 0;
+  margin: 0 auto;
+  max-width: 192px;
+  min-width: 191px;
+}
+
+.footer .form-control {
+  border: 0;
+  border-radius: 0;
+  font-family: Muli, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.footer span.input-group-addon {
+  background: #000;
+  border: 0;
+  border-radius: 0;
+  border-right: 2px solid #000;
+  color: white;
+}

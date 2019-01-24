@@ -1,0 +1,128 @@
+//colors
+$color_orchid_white_approx: #fefdf3;
+$color_woodsmoke_approx: #111;
+$white: white;
+$black: #000;
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $color_orchid_white_approx;
+	color: $color_woodsmoke_approx;
+	font-family: Muli, sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 1.6;
+}
+
+.logo {
+	margin: 1% auto;
+}
+
+.wrapper {
+	background: $white;
+	border: 2px solid $black;
+	text-align: center;
+}
+
+h1 {
+	font-size: 300%;
+	line-height: 500%;
+}
+
+.btn-default {
+	background: $white;
+	border: 2px solid $black;
+	border-radius: 0;
+	color: $black;
+	letter-spacing: 2px;
+	padding: 7px 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+
+	&:hover,
+	&:focus {
+		background: $black;
+		border-color: transparent;
+		color: $white;
+		font-weight: 400;
+		outline: none;
+		text-decoration: none;
+	}
+}
+
+.footer {
+	background: $white;
+	border: 2px solid $black;
+	border-top: 0;
+	margin: 0 auto 10vh;
+	padding: 3% 0;
+	text-align: center;
+
+	.promo {
+		text-transform: uppercase;
+
+		h3 {
+			margin: 0;
+		}
+
+		p {
+			display: block;
+			font: 8px;
+			text-transform: lowercase;
+		}
+	}
+
+	li {
+		border: 2px solid $black;
+		display: inline-block;
+		height: 45px;
+		line-height: 45px !important;
+		margin: 0 15px;
+		position: relative;
+		text-align: center;
+		width: 45px;
+
+		&:hover {
+			background: $color_woodsmoke_approx;
+			color: $white;
+
+			a {
+				color: $white;
+			}
+		}
+
+		a {
+			color: $black;
+			text-decoration: none;
+		}
+	}
+
+	.input-group {
+		border: 2px solid $black;
+		border-radius: 0;
+		margin: 0 auto;
+		max-width: 192px;
+		min-width: 191px;
+	}
+
+	.form-control {
+		border: 0;
+		border-radius: 0;
+		font-family: Muli, sans-serif;
+		font-size: 12px;
+		text-transform: uppercase;
+	}
+
+	span.input-group-addon {
+		background: $black;
+		border: 0;
+		border-radius: 0;
+		border-right: 2px solid $black;
+		color: $white;
+	}
+}
